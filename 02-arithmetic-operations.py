@@ -1,0 +1,16 @@
+print("\n Program :- MSc CS & CL")
+print("\n Semester-1")
+print("\n Name : Komal Gupta")
+print("\n Enrollment : 92600565010")
+print("\n Practical-2")
+
+a=int(input("Enter first number : "))
+b=int(input("Enter second number : "))
+
+print("\n Addition is", a + b)
+print("\n Substraction is", a - b)
+print("\n Multiplication is", a * b)
+print("\n Division is", a / b)
+print("\n Modulus is", a % b)
+print("\n Floor Division is", a // b)
+print("\n Exponentiation is", a ** b)

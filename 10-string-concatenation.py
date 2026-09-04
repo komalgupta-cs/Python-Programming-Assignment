@@ -1,0 +1,27 @@
+# Python program to perform various operations on strings using functions
+
+print("\n Program :- MSc CS & CL")
+print("\n Semester-1")
+print("\n Name : Komal Gupta")
+print("\n Enrollment : 92600565010")
+print("\n Practical-10")
+
+s = input("Enter a string: ")
+print("Original   :", s)
+print("Length     :", len(s))
+print("Uppercase  :", s.upper())
+print("Lowercase  :", s.lower())
+print("Title Case :", s.title())
+print("Swap Case  :", s.swapcase())
+print("Count of a :", s.count('a'))
+print("Find a     :", s.find('a'))
+print("Replace    :", s.replace('a', '@'))
+print("Strip      :", s.strip())
+print("Split      :", s.split())
+print("Join       :", "-".join(s.split()))
+print("Reverse    :", s[::-1])
+
+print("\nString Checks:")
+print("Alphabetic :", s.isalpha())
+print("Digit      :", s.isdigit())
+print("Alphanumeric:", s.isalnum())
